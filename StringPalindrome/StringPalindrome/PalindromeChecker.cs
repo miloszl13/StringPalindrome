@@ -10,7 +10,7 @@ namespace StringPalindrome
     {
         public bool Check(string word)
         {
-            for (int i = 0, j = word.Length - 1; i < word.Length; i++, j--)
+            for (int i = 0, j = word.Length - 1; i < word.Length/2; i++, j--)
             {
                 if (word[i] != word[j])
                 {
